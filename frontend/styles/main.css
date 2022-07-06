@@ -1,0 +1,455 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.nav-item .nav-link.nav-link.active {
+    font-weight: 600;
+    color: #000000 !important;
+}
+
+.nav-link {
+    color: #8d7f5f !important;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+    
+}
+
+/* Hero Section */
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 58px;
+}
+
+.hero-section p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.hero-section text {
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    left: 168px;
+    top: 432px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.hero-section .btn-cta {
+    width: 240px;
+    height: 46px;
+
+    background: rgba(137, 120, 94, 0.9);
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FFFFFF
+}
+
+
+/* Akhir Hero Section */
+
+/* categories */
+.categories{
+    margin-top: 46px;
+}
+
+.tag {
+    background: #97876F;
+    border-radius: 0px 15px 0px 0px;
+    padding: .50rem 2.25rem;
+    min-height: 30px;
+    left: 15px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.categories-thumbnail {
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.categories-img {
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 0.3s ease;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+/* Akhir Categories */
+
+/* Poppular Product */
+.product {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFEFE;
+
+    background: rgba(151, 135, 111, 0.7);
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.component-product:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.product-text {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 30px;
+    background: #C4C4C4;
+}
+/* Akhir Poppular Product */
+
+/* Bagstore */
+.bagstore {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.bagstore .btn-cta {
+    margin-top: 108px;
+}
+/* Akhir Bikestore */
+
+/* Address */
+.address{
+    height: 290px;
+    background: #89785e31;
+    border-radius: 45px;
+    color: #000000
+}
+
+.address p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.address h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+/* Akhir Address */
+
+/*Copyright */
+.copyright .col-12 {
+    position: absolute;
+    width: 1440px;
+    height: 50px;
+    left: 0px;
+
+    text-align: center;
+    background: #89785E;
+    border-radius: 45px;
+}
+
+.copyright p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+/* Akhir copyright */
+
+/* Choice */
+.choice .col-8 {
+    width: 737px;
+    height: 280px;
+    left: 10px;
+    top: 55px;
+}
+
+.choice p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.choice .col-3 {
+    width: 287px;
+    height: 140px;
+    top: -50px;
+}
+/* Akhir Choice */
+
+/* Details */
+.details h5 {
+    position: absolute;
+    width: 181px;
+    height: 33px;
+    top: -80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.details p {
+    position: absolute;
+    width: 709px;
+    height: 288px;
+    left: -28px;
+    top: 140px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+/* Akhir Details*/
+
+/* Information*/
+.information h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.information .col-2 {
+    position: absolute;
+    width: 500px;
+    height: 244px;
+    left: 380px;
+    top: 1802px;
+}
+
+.information p {
+    position: absolute;
+    width: 158px;
+    left: 20px;
+    top: 270px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.information .btn-primary {
+    width: 240px;
+    height: px;
+    left: 947px;
+    top: 2294px;
+    background: rgba(3, 13, 255, 0.37);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #000000
+}
+
+/* Akhir Information*/
+
+/* Booking*/
+.booking h1 {
+    width: 1115px;
+    height: 72px;
+    left: 598px;
+    top: 181px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.booking h3 {
+    width: 1110px;
+    height: 60px;
+    left: 516px;
+    top: 449px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.booking p {
+    width: 1110px;
+    height: 60px;
+    left: 448px;
+    top: 509px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.booking h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* Akhir Booking*/
+
+/* Order*/
+.order .col-7 {
+    width: 100px;
+    height: 300px;
+    left: 650px;
+    top: -440px;
+}
+
+.order p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.order h1 {
+    position: absolute;
+    width: 201px;
+    height: 87px;
+    left: -360px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.order h2 {
+    position: absolute;
+    width: 250px;
+    height: 87px;
+    left: -360px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.order .col-3 {
+    position: absolute;
+    width: 555px;
+    left: 650px;
+    top: 661px;
+}
+
+.order .col-2 {
+    position: absolute;
+    width: 555px;
+    height: 0px;
+    left: 650px;
+    top: 661px;
+}
+
+
+.order .col-5 {
+    width: -100px;
+    left: 650px;
+    top: -450px;
+}
+/* Akhir Order*/
+
+/* Back*/
+.back .col-6 {
+    position: absolute;
+    width: 500px;
+    left: 425px;
+    height: 46px;
+    border-radius: 5px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+/* Akhir Back*/
